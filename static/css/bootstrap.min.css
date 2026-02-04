@@ -1,0 +1,40 @@
+/* Custom Themed Bootstrap CSS for Shivakumar Portfolio */
+
+:root {
+  /* Primary Colors (Blue theme) */
+  --bs-primary: #2c3e50;
+  --bs-primary-rgb: 44, 62, 80;
+  --bs-primary-dark: #1a252f;
+  --bs-primary-light: #3498db;
+  
+  /* Secondary Colors (Teal theme) */
+  --bs-secondary: #1abc9c;
+  --bs-secondary-rgb: 26, 188, 156;
+  
+  /* Success Colors (Green theme) */
+  --bs-success: #27ae60;
+  --bs-success-rgb: 39, 174, 96;
+  
+  /* Info Colors (Light Blue theme) */
+  --bs-info: #3498db;
+  --bs-info-rgb: 52, 152, 219;
+  
+  /* Warning Colors (Orange theme) */
+  --bs-warning: #f39c12;
+  --bs-warning-rgb: 243, 156, 18;
+  
+  /* Danger Colors (Red theme) */
+  --bs-danger: #e74c3c;
+  --bs-danger-rgb: 231, 76, 60;
+  
+  /* Dark Colors */
+  --bs-dark: #2c3e50;
+  --bs-dark-rgb: 44, 62, 80;
+  
+  /* Light Colors */
+  --bs-light: #ecf0f1;
+  --bs-light-rgb: 236, 240, 241;
+}
+
+/* Rest of Bootstrap CSS... */
+/* [Include the full Bootstrap CSS content here or download from official site] */

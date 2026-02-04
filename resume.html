@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Professional Resume</h1>
+            <a href="{{ url_for('download_resume') }}" class="btn btn-primary btn-lg">
+                 <i class="fas fa-download"></i> Download PDF Version 
+            </a>
+        </div>
+
+        <!-- Resume Header -->
+        <div class="card mb-4">
+            <div class="card-body text-center">
+                <h2 class="card-title">Shivakumar</h2>
+                <h4 class="card-subtitle mb-3 text-muted">Python Full Stack Developer</h4>
+                <p class="card-text">
+                    <i class="fas fa-envelope"></i> shivakumarkotyan@gmail.com |
+                    <i class="fas fa-phone"></i> +91 9901605828 |
+                    <i class="fas fa-map-marker-alt"></i> Bangalore, India
+                </p>
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title text-primary">SUMMARY</h4>
+                <p class="card-text">
+                    BCA graduate with hands-on experience in Python Full Stack web development using Flask, 
+                    Django, React.js JavaScript, and MySQL. Skilled in building responsive web applications, 
+                    developing REST APIs, and working with databases, and using Git for version control. 
+                    A motivated learner with strong problem solving and teamwork skills.
+                </p>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title text-primary">SKILLS</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Programming Languages:</strong> Python, JavaScript</li>
+                            <li><strong>Frontend:</strong> HTML, CSS, React.js, Bootstrap</li>
+                            <li><strong>Backend:</strong> Flask, RESTful API, Django</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li><strong>Databases:</strong> MySQL, SQL (CRUD, Joins)</li>
+                            <li><strong>Tools:</strong> Git, GitHub, VS Code, Eclipse</li>
+                            <li><strong>Libraries:</strong> Pandas, NumPy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title text-primary">PROJECTS</h4>
+                
+                <div class="project-item mb-3">
+                    <h5>ShopEase E-commerce Website</h5>
+                    <p><small class="text-muted">Sep 2024 - Jan 2025</small></p>
+                    <p>Python, Flask, MySQL, HTML5, CSS3, JavaScript, Bootstrap</p>
+                    <ul>
+                        <li>Developed a scalable Flask-based e-commerce website with user authentication</li>
+                        <li>Built RESTful Flask API with session-based authentication</li>
+                        <li>Implemented product catalog and shopping cart functionality</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <h5>To-Do List Application</h5>
+                    <p><small class="text-muted">July 2025 - Nov 2025</small></p>
+                    <p>Flask, HTML, CSS, Bootstrap, SQLite, smtplib</p>
+                    <ul>
+                        <li>Full-stack task management application with real-time email notifications</li>
+                        <li>Implemented SMTP integration for automated task reminders</li>
+                        <li>Designed RESTful API endpoints for CRUD operations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick View Sections -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Education</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>BCA</strong> - 69.38% (2021-2024)</li>
+                            <li><strong>PUC</strong> - 70.83% (2020-2021)</li>
+                            <li><strong>SSLC</strong> - 80.60% (2018-2019)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary">Languages</h5>
+                        <ul class="list-unstyled">
+                            <li>Kannada (Native)</li>
+                            <li>English</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

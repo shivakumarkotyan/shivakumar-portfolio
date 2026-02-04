@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section text-center py-5">
+    <div class="container">
+        <img src="{{ url_for('static', filename='images/shivakumar.jpg') }}" 
+             alt="Shivakumar" 
+             class="rounded-circle mb-4 profile-img"
+             width="300" 
+             height="300">
+         <h1 class="display-4">Hello, I'm <span class="text-primary">Shivakumar</span></h1>
+        <h2 class="text-secondary">Python Full Stack Developer</h2>
+        <p class="lead mt-4">Welcome to my portfolio website! 
+            I'm a passionate Python Full Stack Developer with experience in building modern web applications.</p>
+        
+        <div class="row mt-5">
+            <div class="col-md-8 mx-auto">
+                <h3>About Me</h3>
+                <p>BCA graduate with hands-on experience in Python Full Stack web development using Flask, Django, 
+                    React.js JavaScript, and MySQL. Skilled in building responsive web applications, developing REST APIs, 
+                    and working with databases, and using Git for version control.Skilled in building responsive web applications, developing REST APIs, and working with databases. 
+                    A motivated learner with strong problem solving and teamwork skills.</p>
+                
+                <div class="mt-4">
+                    <a href="{{ url_for('resume') }}" class="btn btn-primary me-2">
+                        <i class="fas fa-file-pdf"></i> View Resume
+                    </a>
+                    <a href="{{ url_for('projects') }}" class="btn btn-outline-primary me-2">
+                        <i class="fas fa-code"></i> View Projects
+                    </a>
+                    <a href="{{ url_for('contact') }}" class="btn btn-outline-dark">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+                    <h5 class="card-title">Full Stack Development</h5>
+                    <p class="card-text">Experience with Flask, Django, React.js, and database integration.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-database fa-3x mb-3 text-primary"></i>
+                    <h5 class="card-title">Database Management</h5>
+                    <p class="card-text">Proficient in MySQL, SQL operations, and database design.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-users fa-3x mb-3 text-primary"></i>
+                    <h5 class="card-title">Team Collaboration</h5>
+                    <p class="card-text">Strong communication and teamwork skills for effective collaboration.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

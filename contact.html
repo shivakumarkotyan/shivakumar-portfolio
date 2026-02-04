@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 mb-3"><b>Let's Connect</b></h1>
+        <p class="lead text-muted">Get in touch with me through any of these platforms</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <!-- LinkedIn -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="card-body">
+                    <div class="icon-wrapper mb-4">
+                        <i class="fab fa-linkedin fa-3x text-primary"></i>
+                    </div>
+                    <h4 class="card-title">LinkedIn</h4>
+                    <p class="card-text text-muted mb-4">Professional networking and updates</p>
+                    <a href="https://www.linkedin.com/in/shivakumar-kotyan" 
+                       class="btn btn-outline-primary" 
+                       target="_blank">
+                        <i class="fab fa-linkedin me-2"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="card-body">
+                    <div class="icon-wrapper mb-4">
+                        <i class="fab fa-github fa-3x text-dark"></i>
+                    </div>
+                    <h4 class="card-title">GitHub</h4>
+                    <p class="card-text text-muted mb-4">Check out my projects and code</p>
+                    <a href="https://github.com/shivakumarkotyan" 
+                       class="btn btn-outline-dark" 
+                       target="_blank">
+                        <i class="fab fa-github me-2"></i> View GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-4 mb-4">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <div class="card-body">
+                    <div class="icon-wrapper mb-4">
+                        <i class="fas fa-envelope fa-3x text-success"></i>
+                    </div>
+                    <h4 class="card-title">Email</h4>
+                    <p class="card-text text-muted mb-4">Send me a direct message</p>
+                    <div class="mb-3">
+                        <code class="bg-light p-2 rounded">shivakumarkotyan@gmail.com</code>
+                    </div>
+                    <a href="mailto:shivakumarkotyan@gmail.com" class="btn btn-success">
+                        <i class="fas fa-envelope me-2"></i> Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional Info -->
+    <div class="row justify-content-center mt-5">
+        <div class="col-lg-8">
+            <div class="card border-0 bg-light p-4">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center mb-3 mb-md-0">
+                        <i class="fas fa-map-marker-alt fa-2x text-primary"></i>
+                        <h5 class="mt-2">Location</h5>
+                        <p class="mb-0">Bangalore, India</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-3 mb-md-0">
+                        <i class="fas fa-language fa-2x text-info"></i>
+                        <h5 class="mt-2">Languages</h5>
+                        <p class="mb-0">Kannada, English, Hindi</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-clock fa-2x text-warning"></i>
+                        <h5 class="mt-2">Availability</h5>
+                        <p class="mb-0">Always open to chat!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

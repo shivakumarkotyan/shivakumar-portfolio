@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block title %}Education{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Education & Certifications</h1>
+
+    <div class="row mt-4">
+        <!-- Education -->
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0"><i class="fas fa-graduation-cap me-2"></i>Education</h3>
+                </div>
+                <div class="card-body">
+                    
+                    <!-- BCA -->
+                    <div class="education-item mb-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h4 class="card-title mb-0">Bachelor of Computer Applications (BCA)</h4>
+                            <span class="badge bg-primary">2021 - 2024</span>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <i class="fas fa-university me-1"></i> Bhandarkars' Arts and Science College, Kundapura
+                        </h6>
+                        <p class="card-text">
+                            <strong><i class="fas fa-percentage me-1"></i> Percentage:</strong> 69.38%
+                        </p>
+                    </div>
+
+                    <!-- Pre-University -->
+                    <div class="education-item mb-4">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h4 class="card-title mb-0">Pre-University Education</h4>
+                            <span class="badge bg-primary">2020 - 2021</span>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <i class="fas fa-school me-1"></i> Viveka PU College, Kota
+                        </h6>
+                        <p class="card-text">
+                            <strong><i class="fas fa-percentage me-1"></i> Percentage:</strong> 70.83%
+                        </p>
+                    </div>
+
+                    <!-- Secondary Education -->
+                    <div class="education-item mb-0">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h4 class="card-title mb-0">Secondary Education</h4>
+                            <span class="badge bg-primary">2018 - 2019</span>
+                        </div>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <i class="fas fa-school me-1"></i> Viveka Junior College, Kota
+                        </h6>
+                        <p class="card-text">
+                            <strong><i class="fas fa-percentage me-1"></i> Percentage:</strong> 80.60%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certifications & Internship -->
+        <div class="col-lg-4">
+            <!-- Certifications -->
+            <div class="card shadow mb-4">
+                <div class="card-header bg-success text-white">
+                    <h3 class="mb-0"><i class="fas fa-certificate me-2"></i>Certifications</h3>
+                </div>
+                <div class="card-body p-0">
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item">
+                            <h6 class="mb-1"><i class="fas fa-code text-primary me-2"></i>Python Full Stack Developer</h6>
+                            <small class="text-muted">Codegnan Destination Technologies, Bangalore</small>
+                        </div>
+                        <div class="list-group-item">
+                            <h6 class="mb-1"><i class="fab fa-react text-info me-2"></i>Spring Boot & React.js</h6>
+                            <small class="text-muted">Udemy</small>
+                        </div>
+                        <div class="list-group-item">
+                            <h6 class="mb-1"><i class="fas fa-laptop-code text-warning me-2"></i>Software Development</h6>
+                            <small class="text-muted">LinkedIn Learning</small>
+                        </div>
+                        <div class="list-group-item">
+                            <h6 class="mb-1"><i class="fas fa-robot text-danger me-2"></i>TATA GenAI Powered Data Analytics</h6>
+                            <small class="text-muted">Forage (Job Simulation)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Internship -->
+            <div class="card shadow">
+                <div class="card-header bg-info text-white">
+                    <h3 class="mb-0"><i class="fas fa-briefcase me-2"></i>Internship</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Python Full Stack Intern</h5>
+                    <p class="card-text">
+                        <strong><i class="fas fa-building me-1"></i> Codegnan Destination Technologies, Bangalore</strong><br>
+                        <span class="badge bg-success mt-2 mb-3">Dec 2025 - Present</span>
+                    </p>
+                    <h6 class="mt-3 mb-2">Key Learnings:</h6>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Trained in Python, MySQL, HTML, CSS, and JavaScript</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Gained hands-on experience with Git/GitHub</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Database integration skills</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Improved OOPs and exception handling</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
